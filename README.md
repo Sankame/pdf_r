@@ -13,7 +13,7 @@ pip install PyPDF2
 
 ### スクリプトの実行例
 
-    python rotate_pdf.py input.pdf output.pdf 90
+    python rotate_pdf.py -i input.pdf -o output.pdf -a 90
 
 上記コマンドは `input.pdf` を 90 度回転させて `output.pdf` として保存します。
 
